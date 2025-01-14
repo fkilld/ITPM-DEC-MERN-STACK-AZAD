@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cards with grid</title>
+    <style>
+        .items {
+          background-color: #f4f4f4;
+          border: 1px solid #ccc;
+          
+         height: 200px;
+         width: 200px;
+          /* text-align: center; */
+        }
+        .container {
+          display: grid;
+          /* grid-template-columns: repeat(4, 1fr); */
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-gap: 10px;
+          padding: 10px;
+        }
+        /* <576px
+Small
+≥576px
+Medium
+≥768px
+Large
+≥992px
+X-Large
+≥1200px
+XX-Large
+≥1400px */
+@media (min-width:1200px) {
+    body{
+        color: red;
+    }
+}
+@media (max-width:1200px) {
+    body{
+        color: blue;
+    }
+}
+
+@media (max-width:992px) {
+    body{
+        color: green;
+    }
+}
+
+@media (max-width:768px) {
+    body{
+        color: yellow;
+    }
+}
+@media (min-width:≥576px) {
+    body{
+        color: indianred;
+    }
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items item1">
+        <h1>item 1</h1>
+      </div>
+      <div class="items item2">
+        <h1>item 2</h1>
+      </div>
+      <div class="items item3">
+        <h1>item 3</h1>
+      </div>
+      <div class="items item4">
+        <h1>item 4</h1>
+      </div>
+      <div class="items item5">
+        <h1>item 5</h1>
+      </div>
+      <div class="items item6">
+        <h1>item 6</h1>
+      </div>
+      <div class="items item7">
+        <h1>item 7</h1>
+      </div>
+      <div class="items item8">
+        <h1>item 8</h1>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar with grid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            /* border: solid; */
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            
+        }
+        .logo{
+            /* border: solid; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav-links{
+            display: flex;
+            /* border: solid; */
+            justify-content: space-around;
+            align-items: center;
+        }
+        li{
+            /* border: solid; */
+            list-style: none;
+            padding: 10px;
+            margin: 10px;
+        }
+        li a {
+            text-decoration: none;
+            color: black;
+        }
+            
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>logo</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
