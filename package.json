@@ -1,0 +1,23 @@
+{
+  "name": "itpm-dec-mern-stack-azad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fkilld/ITPM-DEC-MERN-STACK-AZAD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fkilld/ITPM-DEC-MERN-STACK-AZAD/issues"
+  },
+  "homepage": "https://github.com/fkilld/ITPM-DEC-MERN-STACK-AZAD#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

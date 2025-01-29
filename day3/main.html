@@ -1,0 +1,36 @@
+
+<head>
+    <link rel="stylesheet" href=".bs5">
+    <link rel="stylesheet" href=".main.css">
+</head>
+
+<form method="GET" action="">
+							<div class="row align-items-center mt-30">
+								<!-- Search Input -->
+								<div class="col-lg-7 col-md-7">
+									<div class="form-group">
+										<div class="input-group">
+											<input
+												type="text"
+												class="form-control prompt srch_explore"
+												name="search"
+												placeholder="Search by Job Title, Company, Job ID, or Skills"
+												value="{{ search_query }}"
+											/>
+											
+										</div>
+									</div>
+								</div>
+								<!-- Search Button -->
+								<div class="col-lg-2 col-md-2">
+									<button class="more_items_14 active" type="submit">Search</button>
+								</div>
+								<!-- Reset Button -->
+								<div class="col-lg-2 col-md-2">
+									<button class="more_items_14">
+										<a href="{% url 'posted_job' %}" type="reset" style="color: #686f7a;">Reset</a>
+									</button>
+								</div>
+							</div>
+						</form>
+					
